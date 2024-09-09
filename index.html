@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>tarea</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <form id="form" action="">
+            <div class="main-container" id="main-container">
+                <h1>¿Qué utilizas?</h1>
+
+                <input type= "text" id="nombre" class="nombre">
+                <input type= "text" id="dispositivo" class="dispositivo">
+
+                <h4 class="nombre-tit">Nombre</h4>
+                <h4 class="dis-tit">Dispositivo</h4>
+
+                    <hr class="linea1">    
+                    <hr class="linea2">  
+            
+                <button type="submit" class="agregar" id="agregar">Agregar</button>
+                <button type="reset" class="limpiar" id="limpiar">Limpiar</button>
+
+                <h3 class="apple-tit">Apple</h3>
+                <h3 class="samsung-tit">Samsung</h3>
+
+                <input name="radio" id="appleradio" class="appleradio" type="radio" >
+                <input name="radio" id="samsungradio" class="samsungradio" type="radio">
+
+                <img src="img/apple.png" class="apple" alt="">
+                <img src="img/samsung.png" class="samsung" alt="">
+
+                <div class="main-container1">
+
+                    <div id="container-one1" class="container-one">  
+                        <label for="appleselect"></label>  
+                        <select name="appleselect" class="appleselect" id="container-one" multiple>
+                            
+                        </select> 
+                </div>
+     
+                    <div id="container-two2" class="container-two">
+                        <label id="samsungselect" for="samsunglabel"></label>
+                        <select name="samsungselect" class="samsungselect" id="container-two" multiple>
+                
+                        </select>
+                    </div>                     
+                </div>
+
+                <button  type="button" class="boton-arriba" id="boton-arriba">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                    </svg>
+                </button>
+                
+                <button type="button" class="boton-abajo" id="boton-abajo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                    </svg>
+                </button>
+                <button type="button" class="eliminar" id="eliminar">Eliminar</button>
+            </div>
+        </form>
+
+        <script src="index.js"></script>
+    </body>
+</html>
