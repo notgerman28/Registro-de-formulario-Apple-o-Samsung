@@ -1,1 +1,1 @@
-<img src="./samsun">
+<img src="./samsun.png">
